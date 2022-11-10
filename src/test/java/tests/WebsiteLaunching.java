@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.io.File;
 import java.net.MalformedURLException;
 
-public class BaseTest {
+public class WebsiteLaunching {
 
     public WebDriver driver;
 
