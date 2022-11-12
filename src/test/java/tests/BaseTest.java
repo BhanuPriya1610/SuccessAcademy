@@ -86,7 +86,7 @@ public class BaseTest {
 		}
 
 	}
-	
+
 	@Test(priority = 2)
 	public void enrollmentInEnglishTestInSpanishLanguage() throws Exception {
 
@@ -155,7 +155,7 @@ public class BaseTest {
 		driver.findElement(By.xpath("//span[normalize-space()='Select Language']")).click();
 		waitEvent();
 		driver.switchTo().frame(0);
-		driver.findElement(By.xpath("//span[text()='Spanish']")).click();
+		driver.findElement(By.xpath("//span[text()='Chinese (Simplified)']")).click();
 		waitEvent();
 		driver.switchTo().parentFrame();
 		driver.findElement(By.xpath("//*[@id=\"landingPage:landingForm:username\"]")).sendKeys("bpvsu1234@gmail.com");
@@ -198,7 +198,7 @@ public class BaseTest {
 		driver.findElement(By.xpath("//span[normalize-space()='Select Language']")).click();
 		waitEvent();
 		driver.switchTo().frame(0);
-		driver.findElement(By.xpath("//span[text()='Spanish']")).click();
+		driver.findElement(By.xpath("//span[text()='French']")).click();
 		waitEvent();
 		driver.switchTo().parentFrame();
 		driver.findElement(By.xpath("//*[@id=\"landingPage:landingForm:username\"]")).sendKeys("bpvsu1234@gmail.com");
@@ -241,7 +241,7 @@ public class BaseTest {
 		driver.findElement(By.xpath("//span[normalize-space()='Select Language']")).click();
 		waitEvent();
 		driver.switchTo().frame(0);
-		driver.findElement(By.xpath("//span[text()='Spanish']")).click();
+		driver.findElement(By.xpath("//span[text()='Haitian Creole']")).click();
 		waitEvent();
 		driver.switchTo().parentFrame();
 		driver.findElement(By.xpath("//*[@id=\"landingPage:landingForm:username\"]")).sendKeys("bpvsu1234@gmail.com");
@@ -283,7 +283,7 @@ public class BaseTest {
 		driver.findElement(By.xpath("//span[normalize-space()='Select Language']")).click();
 		waitEvent();
 		driver.switchTo().frame(0);
-		driver.findElement(By.xpath("//span[text()='Spanish']")).click();
+		driver.findElement(By.xpath("//span[text()='Russian']")).click();
 		waitEvent();
 		driver.switchTo().parentFrame();
 		driver.findElement(By.xpath("//*[@id=\"landingPage:landingForm:username\"]")).sendKeys("bpvsu1234@gmail.com");
